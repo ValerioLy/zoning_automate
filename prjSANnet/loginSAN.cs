@@ -81,6 +81,7 @@ namespace prjSANnet
             selAmbiente.Items.Add("SAN TO");
             selAmbiente.Items.Add("SAN IOL SZ");
             selAmbiente.Items.Add("SAN IOL TO");
+            selAmbiente.Items.Add("SAN VI");
             selAmbiente.Text = "SAN PSM";
         }
 
@@ -100,6 +101,11 @@ namespace prjSANnet
             {
                 ambiente = "SAN IOL SZ";
                 ipUsed = "10.174.224.75";
+            }
+            else if (selAmbiente.Text == "SAN VI")
+            {
+                ambiente = "SAN VI";
+                ipUsed = "172.24.35.110";
             }
             else
             {
