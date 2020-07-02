@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prjSANnet", "prjSANnet\prjSANnet.csproj", "{028FFC9C-CFF9-4300-8248-16850C93EC66}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "prjSAN_setup", "prjSAN_setup\prjSAN_setup.vdproj", "{A9ABCA4F-4E97-4A86-A248-E44B8BA1879B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{028FFC9C-CFF9-4300-8248-16850C93EC66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{028FFC9C-CFF9-4300-8248-16850C93EC66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{028FFC9C-CFF9-4300-8248-16850C93EC66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{028FFC9C-CFF9-4300-8248-16850C93EC66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9ABCA4F-4E97-4A86-A248-E44B8BA1879B}.Debug|Any CPU.ActiveCfg = Debug
+		{A9ABCA4F-4E97-4A86-A248-E44B8BA1879B}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F5F51A5-C52E-45C5-A156-5CC39FFC5AC9}
+	EndGlobalSection
+EndGlobal
